@@ -1,4 +1,4 @@
-# 백준 1000번 문제
+# 백준 10869번 문제
 # 문제링크>> https://www.acmicpc.net/problem/10869
 A, B = input().split()
 print(int(A) + int(B))
