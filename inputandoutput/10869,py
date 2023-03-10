@@ -1,0 +1,8 @@
+# 백준 1000번 문제
+# 문제링크>> https://www.acmicpc.net/problem/10869
+A, B = input().split()
+print(int(A) + int(B))
+print(int(A) - int(B))
+print(int(A) * int(B))
+print(int(int(A) / int(B)))
+print(int(A) % int(B))
