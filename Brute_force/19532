@@ -1,0 +1,23 @@
+# 백준 19532번 문제
+# 문제링크>> https://www.acmicpc.net/problem/19532
+
+a,b,c,d,e,f = map(int, input().split())
+
+fir = [a*d,b*d,c*d]
+sec = [d*a,e*a,f*a]
+cal = []
+
+
+for i in range(3):
+    cal.append(fir[i] - sec[i])
+
+q = [a*e,b*e,c*e]
+w = [d*b,e*b,f*b]
+cal2 = []
+for j in range(3):
+    cal2.append(q[j]-w[j])
+
+x = int(cal2[2]/cal2[0])
+y = int(cal[2] / cal[1])
+
+print(x, y)   
